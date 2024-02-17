@@ -1,0 +1,7 @@
+<!-- edittext_border.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When EditText is focused (selected) -->
+    <item android:state_focused="true" android:drawable="@drawable/edittext_border_focused" />
+    <!-- When EditText is not focused (not selected) -->
+    <item android:drawable="@drawable/edittext_border_normal" />
+</selector>

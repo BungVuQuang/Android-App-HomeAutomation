@@ -1,0 +1,6 @@
+<!-- edittext_border_focused.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#C5CAE9" /> <!-- Màu nền của EditText khi được chọn -->
+    <stroke android:width="2dp" android:color="#3F51B5" /> <!-- Viền border của EditText khi được chọn -->
+    <corners android:radius="8dp" /> <!-- Độ cong góc của EditText -->
+</shape>

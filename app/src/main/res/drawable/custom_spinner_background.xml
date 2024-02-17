@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="8dp" />
+    <item android:drawable="@color/white" /> <!-- Background color -->
+    <item android:drawable="@drawable/arrow" android:gravity="end|center_vertical" /> <!-- Arrow icon -->
+</layer-list>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/nav_graph_home">
+
+    <fragment
+        android:id="@+id/nav_graph_home"
+        android:name="com.bungdz.Wizards_App.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_viewpager" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_ngoai_nha"
+            app:destination="@id/nav_graph_mesh_info" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_graph_mesh_info"
+        android:name="com.bungdz.Wizards_App.ui.MeshNetwork.MeshNetworkFragment"
+        android:label="Mesh Network"
+        tools:layout="@layout/fragment_meshinfo" >
+        <action
+            android:id="@+id/action_nav_ngoai_nha_to_nav_tang1"
+            app:destination="@id/nav_graph_device_control" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_graph_device_control"
+        android:name="com.bungdz.Wizards_App.ui.Devices.DevicesFragment"
+        android:label="Devices"
+        tools:layout="@layout/fragment_devices" >
+        <action
+            android:id="@+id/action_nav_tang1_to_nav_tang2"
+            app:destination="@id/nav_graph_create_alarm" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_graph_create_alarm"
+        android:label="Alarm"
+        tools:layout="@layout/fragment_create_alarm" >
+        <action
+            android:id="@+id/action_nav_tang2_to_nav_creatAlarm"
+            app:destination="@id/nav_graph_alarm_list" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_graph_alarm_list"
+        android:label="Alarm List"
+        tools:layout="@layout/fragment_list_alarm" >
+        <action
+            android:id="@+id/action_nav_creatAlarm_to_nav_tang2"
+            app:destination="@id/nav_graph_create_alarm" />
+    </fragment>
+</navigation>

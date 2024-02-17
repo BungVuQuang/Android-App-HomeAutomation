@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Wizards</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">𝓣𝓮𝓪𝓶 𝓦𝓲𝔃𝓪𝓻𝓭𝓼</string>
+    <string name="nav_header_subtitle">Team Wizards</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open navigation drawer</string>
+    <string name="close">Close navigation drawer</string>
+    <string name="create_account"><u>Create</u></string>
+    <string name="menu_home">Home</string>
+    <string name="menu_mesh_info">Mesh Network</string>
+    <string name="menu_device">Devices</string>
+    <string name="menu_create_alarm">Alarm</string>
+    <string name="sologoan"><i> Smart Homes for Smarter Living</i></string>
+
+    <!--====================Device Cardview=====================- -->
+    <string name="elementNameDefaul">Gateway</string>
+    <string name="set_threshold_defaul">Set Period</string>
+    <string name="string_set_threshold">0°C</string>
+    <string name="string_btn_off">OFF</string>
+    <string name="string_btn_on">ON</string>
+    <string name="string_btn_set">Set</string>
+    <!--====================END Device Cardview=====================- -->
+    <!--====================Mesh Cardview=====================- -->
+    <string name="string_btn_unprovision">Unprovision</string>
+    <!--====================END Mesh Cardview=====================- -->
+    <!--====================Chart Activity=====================- -->
+    <string name="string_history_data">History Data</string>
+    <string name="string_title_element">Element :</string>
+    <string name="string_title_device">Device :</string>
+    <string name="string_title_option">Option :</string>
+    <string name="string_date_from">Date From:</string>
+    <string name="date_to">Date To:</string>
+    <string name="render">Render</string>
+    <string name="history_data">History Data</string>
+    <!--====================END Chart Activity=====================- -->
+
+    <!--====================Forgot Activity=====================- -->
+    <string name="btn_send">Send</string>
+    <string name="edt_gmail">Gmail</string>
+    <string name="tv_forgot_request">Forgot Request</string>
+    <!--====================END Forgot Activity=====================- -->
+
+    <!--====================Login Activity=====================- -->
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="check_box_remember_me">Remember me</string>
+    <string name="btn_login">Login</string>
+    <string name="hint_password">Password</string>
+    <string name="login_username">Username</string>
+    <string name="tv_login">Login</string>
+    <!--====================END Login Activity=====================- -->
+
+    <!--====================Signin Activity=====================- -->
+    <string name="edt_login_password">Password</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="edt_sign_gmail">Gmail</string>
+    <string name="edt_hint_name">Name</string>
+    <string name="edt_hint_num">Number</string>
+    <string name="edt_hint_signin">Sign In</string>
+    <!--====================END Signin Activity=====================- -->
+
+    <!--====================FlashScreen Activity=====================- -->
+    <string name="tv_title_smart_home">Smart Home</string>
+    <!--====================END FlashScreen Activity=====================- -->
+
+    <!--====================Add Device Fragment=====================- -->
+    <string name="add_device">Add Device</string>
+    <!--====================END Add Device Fragment=====================- -->
+
+    <!--====================Alarm Fragment=====================- -->
+    <string name="tv_titile_date">Date:</string>
+    <string name="tv_titile_time">Time:</string>
+    <string name="btn_pick_date">Pick Date</string>
+    <string name="btn_pick_time">Pick Time</string>
+    <string name="btn_set_alarm">Set Alarm</string>
+    <!--====================END Alarm Fragment=====================- -->
+
+    <!--====================Remove Device Fragment=====================- -->
+    <string name="tv_delete_device">Delete Device</string>
+    <!--====================END Remove Device Fragment=====================- -->
+
+    <!--====================Alarm List Fragment=====================- -->
+    <string name="btn_delete">Delete</string>
+    <!--====================END Alarm List Fragment=====================- -->
+    <string name="signIn">
+         <u>Sign In</u>
+    </string>
+    <string name="forgot">
+         <u>Forgot Password</u>
+    </string>
+    <string name="back">
+         <u>Quay lại</u>
+    </string>
+
+</resources>

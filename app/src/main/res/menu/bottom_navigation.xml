@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:foreground="?android:attr/selectableItemBackground"
+        android:icon="@drawable/homepage"
+        android:id="@+id/nav_home"
+        android:title="Home"
+        />
+
+    <item
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/nav_mesh_info"
+        android:title="Mesh Network"
+        android:icon="@drawable/mesh"/>
+
+    <item
+        android:foreground="?android:attr/selectableItemBackground"
+        android:icon="@drawable/device"
+        android:id="@+id/nav_device_control"
+        android:title="Devices"/>
+
+    <item
+        android:foreground="?android:attr/selectableItemBackground"
+        android:icon="@drawable/clock"
+        android:id="@+id/nav_alarm"
+        android:title="Alarm"/>
+
+</menu>
